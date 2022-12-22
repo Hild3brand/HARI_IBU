@@ -1,0 +1,79 @@
+body {
+    background-color: blueviolet;
+}
+
+#judul {
+    font-family: "Dancing Script";
+    text-align: center;
+    color:white;
+    font-size: 50px;
+}
+
+.container {
+    position: relative;
+    width: 50%;
+}
+
+.image {
+    display: block;
+    width: 100%;
+    height: auto;
+    width: 250px;
+    margin: 0px 50px;
+    border-radius: 20px;
+}
+
+.overlay {
+    position: absolute;
+    top: 300px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 50%;
+    width: 200%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: white;
+    border-radius: 20px;
+}
+
+.container:hover .overlay {
+    opacity: 1;
+}
+
+.text {
+    color: black;
+    font-size: 20px;
+    font-family: "Arial";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+ul {
+    color: white;
+    margin-top: 100px;
+    font-size: 30px;
+    text-align: center;
+    list-style-type: none;
+    font-family: "caveat";
+}
+
+li {
+    color: white;
+    font-size: 25px ;
+}
+
+.notes {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 705px;
+    font-size: 30px;
+    color: white;
+    font-family: "caveat";
+}
